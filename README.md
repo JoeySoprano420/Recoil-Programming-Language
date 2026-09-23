@@ -982,11 +982,11 @@ for 99% of a project and manually control instruction realization for the 1% whe
 
 ---
 
-# 26. Intrensics
+# 26. Intrinsics
 
-Exclusive machine-native or platform-native capabilities are **Intrensics**.
+Exclusive machine-native or platform-native capabilities are **Intrinsics**.
 
-An Intrensic represents functionality whose usefulness comes specifically from a target architecture or execution environment.
+An Intrinsic represents functionality whose usefulness comes specifically from a target architecture or execution environment.
 
 Examples include conceptual access to:
 
@@ -999,7 +999,7 @@ processor hints
 system facilities
 ```
 
-Intrensics remain explicit so portable Recoil code can be distinguished from architecture-exclusive behavior.
+Intrinsics remain explicit so portable Recoil code can be distinguished from architecture-exclusive behavior.
 
 ---
 
@@ -1664,7 +1664,7 @@ Native at the bottom.
 
 **Unsafe execution:** padding
 
-**Machine-specific facilities:** Intrensics
+**Machine-specific facilities:** Intrinsics
 
 **Primary paradigm:** State-Driven Programming
 
@@ -3388,11 +3388,11 @@ calling conventions
 
 ---
 
-# 41. Intrensics
+# 41. Intrinsics
 
-Target-exclusive capabilities are called **Intrensics**.
+Target-exclusive capabilities are called **Intrinsics**.
 
-Intrensics expose functionality inseparable from a specific machine or platform.
+Intrinsics expose functionality inseparable from a specific machine or platform.
 
 Examples include:
 
@@ -3412,7 +3412,7 @@ special vector operations
 platform-specific execution features
 ```
 
-Intrensics are deliberately marked so portable and target-exclusive code remain visibly distinguishable.
+Intrinsics are deliberately marked so portable and target-exclusive code remain visibly distinguishable.
 
 ---
 
@@ -4591,7 +4591,7 @@ Experts can progressively take control of layout, instructions, vectors, memory,
 
 **Unsafe execution:** Padding
 
-**Machine-exclusive facilities:** Intrensics
+**Machine-exclusive facilities:** Intrinsics
 
 **Vector/machine controls:** Directives
 
@@ -5047,7 +5047,7 @@ And at the bottom:
 ```text
 padding
 directives
-Intrensics
+Intrinsics
 exact instructions
 ```
 
@@ -5125,7 +5125,7 @@ clearly.
 
 Then let the optimizer work.
 
-Only move downward into manual layout, directives, Intrensics, and exact instruction selection after profiling demonstrates a meaningful reason.
+Only move downward into manual layout, directives, Intrinsics, and exact instruction selection after profiling demonstrates a meaningful reason.
 
 The ideal Recoil philosophy is:
 
